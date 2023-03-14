@@ -46,8 +46,7 @@
 
 <p>The input file for this would be:</p>
 
-<code >
-0 n 0 1 1 0<br>
+<code >0 n 0 1 1 0<br>
 1 f 2 0 0 1<br>
 2 n 3 2<br>
 3 f
@@ -55,8 +54,7 @@
 
 <p>But if we wanted a complete automata we would complete the edges with a <code>-1</code> node that coresponds for the <b>abort state</b>.</p>
 
-<code>
-0 n 0 1 1 0 -1 2<br>
+<code>0 n 0 1 1 0 -1 2<br>
 1 f 2 0 0 1 -1 2<br>
 2 n 3 2 -1 0 -1 1<br>
 3 f -1 0 -1 1 -1 2
