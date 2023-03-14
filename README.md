@@ -1,6 +1,6 @@
 <h1>Deterministic & Nondeterministic Finite Automata</h1>
 <h2>A program to determine acceptance of a word</h2>
-<!-- <img src='https://user-images.githubusercontent.com/65015373/224038158-8c8de0b7-3be4-4522-8348-cfc1bc4e99ae.png'> -->
+<img src='https://user-images.githubusercontent.com/65015373/225086828-b11a0344-777c-4062-a97b-a5476e154b13.png'>
 <br>
 <hr>
 <h2>About it</h2>
@@ -22,6 +22,8 @@
 <h3>The text format</h3>
 <p>The automata expects the input to have this specific format: </p>
 <code>node_number _ is_final _ next_node _ letter _ ... </code>
+
+<br>
 <p>Where: </p>
 <ul>
     <li>the node number - represents a positive integer for that specific node</li>
@@ -33,6 +35,7 @@
 </ul>
 
 <p>Every <b>node</b> along with its content should be written on a different line.</p>
+
 <p>The program accepts non-completed automata, but must have all nodes declared at least.</p>
 
 
@@ -63,6 +66,7 @@
 <br>
 <hr>
 <h2>How it works</h2>
+
 <p>The program simulates an automata behavior, taking one letter at a time and decides the next node.</p>
 
 
@@ -86,3 +90,4 @@
 
 
 <p>The file selector is done using the <b>tkinter</b> module, the root windows is hidden.</p>
+
