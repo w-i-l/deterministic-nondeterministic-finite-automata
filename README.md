@@ -46,21 +46,21 @@
 
 <p>The input file for this would be:</p>
 
-<div style='background:black; color:yellow; font-weight:bold;'>
+<code >
 0 n 0 1 1 0<br>
 1 f 2 0 0 1<br>
 2 n 3 2<br>
 3 f
-</div>
+</code>
 
 <p>But if we wanted a complete automata we would complete the edges with a <code>-1</code> node that coresponds for the <b>abort state</b>.</p>
 
-<div style='background:black; color:yellow; font-weight:bold;'>
+<code>
 0 n 0 1 1 0 -1 2<br>
 1 f 2 0 0 1 -1 2<br>
 2 n 3 2 -1 0 -1 1<br>
 3 f -1 0 -1 1 -1 2
-</div>
+</code>
 
 
 <br>
